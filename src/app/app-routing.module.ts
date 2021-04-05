@@ -21,6 +21,7 @@ const routes: Routes = [
   { path: 'modal', loadChildren: () => import('./pages/modal/modal.module').then( m => m.ModalPageModule) },
   { path: 'popover', loadChildren: () => import('./pages/popover/popover.module').then( m => m.PopoverPageModule) },
   { path: 'progress-bar', loadChildren: () => import('./pages/progress-bar/progress-bar.module').then( m => m.ProgressBarPageModule) },
+  { path: 'refresher', loadChildren: () => import('./pages/refresher/refresher.module').then( m => m.RefresherPageModule) },
   { path: 'tabs', loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule) },
 ];
 
