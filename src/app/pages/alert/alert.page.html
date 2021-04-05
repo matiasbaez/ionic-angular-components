@@ -1,0 +1,14 @@
+<app-header [title]="title || 'Alert'"></app-header>
+
+<ion-content padding>
+
+    <ion-button expand="full" color="primary" (click)="presentAlert()">Mostrar Alerta</ion-button>
+    <ion-button expand="full" color="primary" (click)="presentAlertMultipleButtons()">Mostrar Alerta (MB)</ion-button>
+    <ion-button expand="full" color="primary" (click)="presentAlertConfirm()">Mostrar Alerta Confirm</ion-button>
+    <ion-button expand="full" color="primary" (click)="presentAlertPrompt()">Mostrar Alerta Prompt</ion-button>
+    <ion-button expand="full" color="primary" (click)="presentAlertRadio()">Mostrar Alerta Radio</ion-button>
+    <ion-button expand="full" color="primary" (click)="presentAlertCheckbox()">Mostrar Alerta Checkbox</ion-button>
+    <ion-button expand="full" color="primary" (click)="presentAlertCheckbox()">Mostrar Alerta Checkbox</ion-button>
+    <ion-button expand="full" color="secondary" (click)="alertChangeHeader()">Cambiar Header</ion-button>
+
+</ion-content>
