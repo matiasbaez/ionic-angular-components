@@ -12,7 +12,6 @@ import { ComponentsModule } from '../../components/components.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    ModalInfoPageModule,
     ComponentsModule
   ],
   declarations: [ModalInfoPage]
