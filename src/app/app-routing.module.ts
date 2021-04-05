@@ -19,6 +19,7 @@ const routes: Routes = [
   { path: 'list-reorder', loadChildren: () => import('./pages/list-reorder/list-reorder.module').then( m => m.ListReorderPageModule) },
   { path: 'loading', loadChildren: () => import('./pages/loading/loading.module').then( m => m.LoadingPageModule) },
   { path: 'modal', loadChildren: () => import('./pages/modal/modal.module').then( m => m.ModalPageModule) },
+  { path: 'popover', loadChildren: () => import('./pages/popover/popover.module').then( m => m.PopoverPageModule) },
   { path: 'tabs', loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule) },
 ];
 
